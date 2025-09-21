@@ -35,10 +35,10 @@
     </td>
     <td width="45%" valign="top">
       <h3>📊 My Progress</h3>
-      <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=Rajvansh-1&show_icons=true&theme=transparent&hide_border=true&title_color=E94560&text_color=D8D8D8&icon_color=E94560" alt="GitHub Stats"/>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajvansh-1&layout=compact&theme=transparent&hide_border=true&title_color=E94560&text_color=D8D8D8" alt="Top Languages"/>
-      </p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Rajvansh-1&show_icons=true&theme=transparent&hide_border=true&title_color=E94560&text_color=D8D8D8&icon_color=E94560" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajvansh-1&layout=compact&theme=transparent&hide_border=true&title_color=E94560&text_color=D8D8D8" alt="Top Languages"/>
+</p>
       <h3>🏆 My Accolades</h3>
       <p align="center">
         <img src="https://github-profile-trophy.vercel.app/?username=Rajvansh-1&theme=gruvbox&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies"/>
