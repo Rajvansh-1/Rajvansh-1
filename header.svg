@@ -1,58 +1,88 @@
-<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="360" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#0D1117" />
-            <stop offset="100%" stop-color="#161B22" />
-        </linearGradient>
-        <filter id="glow">
-            <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+        <radialGradient id="bg-space" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" stop-color="#05050D" />
+            <stop offset="100%" stop-color="#000000" />
+        </radialGradient>
+
+        <filter id="node-glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur" />
+            <feFlood flood-color="#80FFFF" flood-opacity="0.8" result="flood"/>
+            <feComposite in="flood" in2="blur" operator="in" result="glow"/>
             <feMerge>
-                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="glow"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+        <filter id="text-spark">
+            <feFlood flood-color="#FFFFFF" flood-opacity="1" result="flood"/>
+            <feComposite in="flood" in2="SourceGraphic" operator="in" result="textLight"/>
+            <feGaussianBlur in="textLight" stdDeviation="0.5" result="textBlur"/>
+            <feMerge>
+                <feMergeNode in="textBlur"/>
                 <feMergeNode in="SourceGraphic"/>
             </feMerge>
         </filter>
     </defs>
 
-    <rect width="900" height="300" fill="url(#bg-grad)" />
+    <rect width="960" height="360" fill="url(#bg-space)" />
 
-    <g font-family="'Courier New', Courier, monospace" font-size="16" fill="#00A9A5" opacity="0.4">
-        <text y="-20">01101001</text>
-        <text x="50" y="-40">&lt;div&gt;</text>
-        <text x="100" y="-60">COMMIT</text>
-        <text x="150" y="-20">const x</text>
-        <text x="200" y="-80">printf()</text>
-        <text x="250" y="-10">BUILD</text>
-        <text x="300" y="-50">{}</text>
-        <text x="350" y="-90">git push</text>
-        <text x="400" y="-30">Promise</text>
-        <text x="450" y="-70">=&gt;</text>
-        <text x="500" y="-10">Array()</text>
-        <text x="550" y="-60">C++</text>
-        <text x="600" y="-30">React</text>
-        <text x="650" y="-80">node.js</text>
-        <text x="700" y="-20">CSS3</text>
-        <text x="750" y="-50">NULL</text>
-        <text x="800" y="-90">async</text>
-        <text x="850" y="-40">HTML5</text>
-        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 380" dur="8s" repeatCount="indefinite" />
+    <g stroke="#00FFFF" stroke-width="0.3" opacity="0.15">
+        <path d="M0 0 L960 360" >
+            <animate attributeName="opacity" values="0.1;0.3;0.1" dur="10s" repeatCount="indefinite"/>
+        </path>
+        <path d="M0 360 L960 0">
+            <animate attributeName="opacity" values="0.3;0.1;0.3" dur="12s" repeatCount="indefinite"/>
+        </path>
+        <path d="M480 0 L480 360">
+            <animate attributeName="opacity" values="0.2;0.4;0.2" dur="8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M0 180 L960 180">
+            <animate attributeName="opacity" values="0.4;0.2;0.4" dur="9s" repeatCount="indefinite"/>
+        </path>
     </g>
 
-    <g>
-        <text x="50%" y="85" text-anchor="middle" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="32" fill="#C9D1D9">
+    <g fill="#80FFFF" filter="url(#node-glow)">
+        <circle cx="200" cy="100" r="3">
+            <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="700" cy="250" r="3">
+            <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="480" cy="50" r="3">
+            <animate attributeName="r" values="3;5;3" dur="1.8s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="250" cy="300" r="3">
+            <animate attributeName="r" values="3;5;3" dur="2.2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
+         <circle cx="800" cy="150" r="3">
+            <animate attributeName="r" values="3;5;3" dur="2.7s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="2.7s" repeatCount="indefinite"/>
+        </circle>
+    </g>
+
+    <g text-anchor="middle" filter="url(#text-spark)">
+        <text x="50%" y="120" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="36" fill="#E0F2F7">
             Hi there, I'm
             <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.5s" fill="freeze" />
         </text>
 
-        <text x="50%" y="155" text-anchor="middle" font-family="'Orbitron', 'Arial Black', sans-serif" font-size="80" font-weight="900" fill="none" stroke="#66FCF1" stroke-width="2" letter-spacing="2" filter="url(#glow)"
-              stroke-dasharray="1050" stroke-dashoffset="1050">
+        <text x="50%" y="200" font-family="'Orbitron', 'Arial Black', sans-serif" font-size="85" font-weight="900" fill="none" stroke="#66FCF1" stroke-width="2.5" letter-spacing="3"
+              stroke-dasharray="1150" stroke-dashoffset="1150">
             RAJVANSH
-            <animate attributeName="stroke-dashoffset" from="1050" to="0" dur="2.5s" begin="1s" fill="freeze" />
-            <animate attributeName="fill" from="none" to="#66FCF1" dur="0.5s" begin="3s" fill="freeze" />
+            <animate attributeName="stroke-dashoffset" from="1150" to="0" dur="2.8s" begin="1s" fill="freeze" />
+            <animate attributeName="fill" from="none" to="#80FFFF" dur="0.8s" begin="3.2s" fill="freeze" />
+            <animate attributeName="text-shadow" from="none" to="0 0 10px #80FFFF" dur="0.8s" begin="3.2s" fill="freeze" />
         </text>
 
-        <text x="50%" y="215" text-anchor="middle" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="20" fill="#C9D1D9" letter-spacing="1">
+        <text x="50%" y="270" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="24" fill="#E0F2F7" letter-spacing="1.5">
             Frontend Developer || Aspiring Full-stack Developer
-            <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="3.5s" fill="freeze" />
+            <animate attributeName="opacity" from="0" to="1" dur="2s" begin="3.8s" fill="freeze" />
         </text>
     </g>
 </svg>
