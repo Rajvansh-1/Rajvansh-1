@@ -1,69 +1,11 @@
 <svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Roboto:wght@300;400&display=swap');
-        .greeting-text {
-            font-family: 'Roboto', sans-serif;
-            font-size: 32px;
-            fill: #C5C6C7;
-        }
-        .name-text {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 80px;
-            font-weight: 900;
-            fill: url(#name-gradient);
-            stroke: #00FFFF;
-            stroke-width: 1.5;
-            text-anchor: middle;
-            letter-spacing: 2px;
-            animation: text-flicker 5s infinite alternate;
-        }
-        .profession-text {
-            font-family: 'Roboto', sans-serif;
-            font-size: 20px;
-            fill: #66FCF1;
-            text-anchor: middle;
-            letter-spacing: 1px;
-            opacity: 0;
-            animation: fade-in 2s ease-in-out 2.5s forwards;
-        }
-        .code-stream {
-            font-family: 'Fira Code', 'Courier New', monospace;
-            font-size: 14px;
-            fill: #45A29E;
-            opacity: 0;
-            animation: stream-fade 10s infinite;
-        }
-        @keyframes stream-fade {
-            0%, 100% { opacity: 0; }
-            10%, 90% { opacity: 0.3; }
-        }
-        @keyframes text-flicker {
-            0%, 19%, 21%, 53%, 55%, 100% {
-                text-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 20px #00BFFF, 0 0 40px #00BFFF;
-                opacity: 1;
-            }
-            20%, 54% {
-                opacity: 0.7;
-                text-shadow: none;
-            }
-        }
-        @keyframes fade-in {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
     <defs>
-        <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#0B0C10" />
-            <stop offset="100%" stop-color="#1F2833" />
+        <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0D1117" />
+            <stop offset="100%" stop-color="#161B22" />
         </linearGradient>
-        <linearGradient id="name-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#FFFFFF" />
-            <stop offset="50%" stop-color="#E0E0E0" />
-            <stop offset="100%" stop-color="#C5C6C7" />
-        </linearGradient>
-        <filter id="hologram-glow">
-            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
             <feMerge>
                 <feMergeNode in="coloredBlur"/>
                 <feMergeNode in="SourceGraphic"/>
@@ -71,37 +13,46 @@
         </filter>
     </defs>
 
-    <rect width="900" height="300" fill="url(#bg-gradient)" />
-    
-    <g class="code-stream">
-        <text x="50" y="30">01101000 01101001 01110010 01100101</text>
-        <text x="250" y="60">const dev = new Developer("Rajvansh");</text>
-        <text x="600" y="90">Promise.resolve("Success");</text>
-        <text x="100" y="120">system.out.println("Init...");</text>
-        <text x="400" y="150">git commit -m "build: new header"</text>
-        <text x="50" y="180">npm install --save-dev future</text>
-        <text x="550" y="210">SELECT * FROM skills WHERE is_epic=1;</text>
-        <text x="200" y="240">./run-extraordinary.sh</text>
-        <text x="650" y="270">[...Array(10)].map(() => "⭐")</text>
+    <rect width="900" height="300" fill="url(#bg-grad)" />
+
+    <g font-family="'Courier New', Courier, monospace" font-size="16" fill="#00A9A5" opacity="0.4">
+        <text y="-20">01101001</text>
+        <text x="50" y="-40">&lt;div&gt;</text>
+        <text x="100" y="-60">COMMIT</text>
+        <text x="150" y="-20">const x</text>
+        <text x="200" y="-80">printf()</text>
+        <text x="250" y="-10">BUILD</text>
+        <text x="300" y="-50">{}</text>
+        <text x="350" y="-90">git push</text>
+        <text x="400" y="-30">Promise</text>
+        <text x="450" y="-70">=&gt;</text>
+        <text x="500" y="-10">Array()</text>
+        <text x="550" y="-60">C++</text>
+        <text x="600" y="-30">React</text>
+        <text x="650" y="-80">node.js</text>
+        <text x="700" y="-20">CSS3</text>
+        <text x="750" y="-50">NULL</text>
+        <text x="800" y="-90">async</text>
+        <text x="850" y="-40">HTML5</text>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 380" dur="8s" repeatCount="indefinite" />
     </g>
 
-    <path d="M 50 250 L 100 270 L 800 270 L 850 250" stroke="#45A29E" stroke-width="2" fill="none" opacity="0.8" filter="url(#hologram-glow)"/>
-
-    <g transform="translate(0, -20)">
-        <text x="50%" y="35%" dominant-baseline="middle" text-anchor="middle" class="greeting-text">
+    <g>
+        <text x="50%" y="85" text-anchor="middle" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="32" fill="#C9D1D9">
             Hi there, I'm
+            <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.5s" fill="freeze" />
         </text>
 
-        <g class="name-text">
-             <text x="50%" y="55%" dominant-baseline="middle" stroke-dasharray="1000" stroke-dashoffset="1000">
-                RAJVANSH
-                <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="2.5s" fill="freeze" />
-             </text>
-        </g>
+        <text x="50%" y="155" text-anchor="middle" font-family="'Orbitron', 'Arial Black', sans-serif" font-size="80" font-weight="900" fill="none" stroke="#66FCF1" stroke-width="2" letter-spacing="2" filter="url(#glow)"
+              stroke-dasharray="1050" stroke-dashoffset="1050">
+            RAJVANSH
+            <animate attributeName="stroke-dashoffset" from="1050" to="0" dur="2.5s" begin="1s" fill="freeze" />
+            <animate attributeName="fill" from="none" to="#66FCF1" dur="0.5s" begin="3s" fill="freeze" />
+        </text>
 
-        <text x="50%" y="75%" dominant-baseline="middle" class="profession-text">
+        <text x="50%" y="215" text-anchor="middle" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="20" fill="#C9D1D9" letter-spacing="1">
             Frontend Developer || Aspiring Full-stack Developer
+            <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="3.5s" fill="freeze" />
         </text>
     </g>
 </svg>
-
