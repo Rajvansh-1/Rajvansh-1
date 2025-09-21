@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Hi,%20I'm%20Rajvansh&fontColor=ffffff&fontSize=60&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%7C%20Aspiring%20Full-Stack%20Developer&descAlignY=55&descAlign=68" alt="Header"/>
+  <img src="header.svg" alt="Rajvansh - Developer Profile Header"/>
 </div>
+
 
 <div align="center">
   <h3>A detail-oriented Frontend Developer currently expanding my expertise to become a comprehensive Full-Stack Engineer.</h3>
