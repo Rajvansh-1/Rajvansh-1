@@ -3,11 +3,11 @@
 </div>
 
 <div align="center">
-  <h3>A passionate developer from India 🇮🇳, on a journey to build beautiful and robust digital experiences.</h3>
+  <h3>A detail-oriented Frontend Developer currently expanding my expertise to become a comprehensive Full-Stack Engineer.</h3>
   <ul>
-    <li>🚀 I’m focused on bridging the gap between elegant frontend design and powerful backend functionality.</li>
-    <li>💡 I love collaborating on innovative projects and contributing to the open-source community.</li>
-    <li>🌱 Fun Fact: I believe the best ideas often come with a great cup of coffee!</li>
+    <li>🚀 Architecting intuitive user interfaces with a focus on clean, efficient code.</li>
+    <li>🌱 Evolving my skills in backend and cloud infrastructure to build end-to-end solutions.</li>
+    <li>💡 Passionate about problem-solving, collaboration, and continuous learning.</li>
   </ul>
 </div>
 
@@ -25,29 +25,81 @@
 <h3 align="center">💻 Tech Stack & Tools</h3>
 <table align="center">
   <tr>
-    <td align="center" width="96">
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
       <br>React
     </td>
-    <td align="center" width="96">
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=redux" width="48" height="48" alt="Redux" />
+      <br>Redux
+    </td>
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
       <br>JavaScript
     </td>
-    <td align="center" width="96">
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
       <br>Node.js
     </td>
-    <td align="center" width="96">
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
+      <br>MongoDB
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
+      <br>Firebase
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
       <br>WordPress
     </td>
-    <td align="center" width="96">
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" />
       <br>AWS
     </td>
-     <td align="center" width="96">
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" />
+      <br>Nginx
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
+      <br>C
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
+      <br>C++
+    </td>
+     <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+      <br>Python
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
       <br>Git
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
+      <br>GitHub
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+      <br>VS Code
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=netlify" width="48" height="48" alt="Netlify" />
+      <br>Netlify
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Kali Linux" />
+      <br>Kali Linux
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=googleanalytics" width="48" height="48" alt="Google Analytics" />
+      <br>Analytics
     </td>
   </tr>
 </table>
