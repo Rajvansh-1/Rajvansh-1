@@ -3,6 +3,10 @@
 </div>
 
 <div align="center">
+  <img src="summary.svg" alt="Rajvansh - Profile Summary Terminal"/>
+</div>
+
+<div align="center">
 
 <h3>A detail-oriented Frontend Developer currently expanding my expertise to become a comprehensive Full-Stack Engineer.</h3>
 
