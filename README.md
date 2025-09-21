@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Hi,%20I'm%20Rajvansh&fontColor=ffffff&fontSize=60&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%7C%20Aspiring%20Full-Stack%20Architect&descAlignY=55&descAlign=68" alt="Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Hi,%20I'm%20Rajvansh&fontColor=ffffff&fontSize=60&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%7C%20Aspiring%20Full-Stack%20Developer&descAlignY=55&descAlign=68" alt="Header"/>
 </div>
 
 <div align="center">
@@ -26,16 +26,24 @@
 <table align="center">
   <tr>
     <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
+      <br>HTML
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
+      <br>CSS
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
+      <br>JavaScript
+    </td>
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
       <br>React
     </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=redux" width="48" height="48" alt="Redux" />
       <br>Redux
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
-      <br>JavaScript
     </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
@@ -45,23 +53,15 @@
       <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
       <br>MongoDB
     </td>
+  </tr>
+  <tr>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
       <br>Firebase
     </td>
-  </tr>
-  <tr>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
       <br>WordPress
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" />
-      <br>AWS
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" />
-      <br>Nginx
     </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
@@ -71,12 +71,24 @@
       <img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
       <br>C++
     </td>
-     <td align="center" width="120">
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
       <br>Python
     </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" />
+      <br>AWS
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=netlify" width="48" height="48" alt="Netlify" />
+      <br>Netlify
+    </td>
   </tr>
   <tr>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=cloudflare" width="48" height="48" alt="Cloudflare" />
+      <br>Cloudflare
+    </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
       <br>Git
@@ -90,17 +102,17 @@
       <br>VS Code
     </td>
     <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=netlify" width="48" height="48" alt="Netlify" />
-      <br>Netlify
-    </td>
-    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Kali Linux" />
       <br>Kali Linux
     </td>
     <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=googleanalytics" width="48" height="48" alt="Google Analytics" />
+      <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white&label=" alt="Google Analytics" />
       <br>Analytics
     </td>
+    <td align="center" width="120">
+  <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
+  <br>Tailwind CSS
+</td>
   </tr>
 </table>
 
