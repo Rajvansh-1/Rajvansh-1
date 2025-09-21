@@ -1,0 +1,88 @@
+<svg width="800" height="420" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+      .main-text { font-family: 'Share Tech Mono', monospace; font-size: 14px; fill: #a7d1ff; }
+      .header-text { font-family: 'Share Tech Mono', monospace; font-size: 20px; fill: #00e1ff; text-shadow: 0 0 5px #00e1ff; }
+      .small-text { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #8ca5c3; }
+      .icon { fill: #00e1ff; }
+    </style>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#1e3a5f; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117; stop-opacity:1" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#grad1)" rx="10" ry="10"/>
+  
+  <circle cx="400" cy="210" r="30" fill="#0d1117" stroke="#00e1ff" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="r" values="30;35;30" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="stroke-width" values="2;4;2" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="400" cy="210" r="15" fill="#00e1ff" filter="url(#glow)"/>
+
+  <ellipse cx="400" cy="210" rx="250" ry="120" fill="none" stroke="#2a4a75" stroke-width="1" stroke-dasharray="5,5">
+      <animateTransform attributeName="transform" type="rotate" from="0 400 210" to="360 400 210" dur="120s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="400" cy="210" rx="350" ry="180" fill="none" stroke="#2a4a75" stroke-width="1" stroke-dasharray="2,8">
+      <animateTransform attributeName="transform" type="rotate" from="360 400 210" to="0 400 210" dur="180s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <g transform="translate(50, 50)">
+    <text x="0" y="0" class="header-text">// AGENT_PROFILE</text>
+    <text x="0" y="30" class="main-text">ID: Rajvansh</text>
+    <text x="0" y="50" class="main-text">CLASS: Frontend Developer</text>
+    <text x="0" y="70" class="main-text">OBJECTIVE: Evolve to Full-Stack Architect</text>
+  </g>
+
+  <g transform="translate(500, 100)">
+    <text x="0" y="0" class="header-text">// CORE_TECHNOLOGIES</text>
+    <g transform="translate(0, 30)">
+        <circle cx="10" cy="0" r="10" class="icon" fill-opacity="0.2"/>
+        <path class="icon" d="M10,2.1c-4.4,0-8,3.6-8,8s3.6,8,8,8s8-3.6,8-8C18,5.4,14.1,2.1,10,2.1z M10,16.5c-3.6,0-6.5-2.9-6.5-6.5 c0-3.6,2.9-6.5,6.5-6.5c3.6,0,6.5,2.9,6.5,6.5C16.5,13.6,13.6,16.5,10,16.5z M10,6.5c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5 s4.5-2,4.5-4.5S12.5,6.5,10,6.5z"/>
+        <text x="30" y="5" class="main-text">React</text>
+    </g>
+    <g transform="translate(0, 60)">
+        <circle cx="10" cy="0" r="10" class="icon" fill-opacity="0.2"/>
+        <path class="icon" d="M9.8,2.1L3.4,5.8v7.4l6.4,3.7l6.4-3.7V5.8L9.8,2.1z M9.8,15.5L4.8,12.6V7.2l5-2.9l5,2.9v5.4L9.8,15.5z"/>
+        <text x="30" y="5" class="main-text">Node.js</text>
+    </g>
+    <g transform="translate(0, 90)">
+        <circle cx="10" cy="0" r="10" class="icon" fill-opacity="0.2"/>
+        <path class="icon" d="M10,2.1C5.6,2.1,2.1,5.6,2.1,10s3.6,7.9,7.9,7.9s7.9-3.6,7.9-7.9S14.4,2.1,10,2.1z M12.9,13.3c-0.2,0.4-0.6,0.6-1,0.6 H8.1c-0.4,0-0.8-0.2-1-0.6L4.2,7.5c-0.2-0.4,0-0.8,0.4-1h10.8c0.4,0,0.6,0.6,0.4,1L12.9,13.3z"/>
+        <text x="30" y="5" class="main-text">Amazon AWS</text>
+    </g>
+    <g transform="translate(0, 120)">
+        <circle cx="10" cy="0" r="10" class="icon" fill-opacity="0.2"/>
+        <path class="icon" d="M10,2C5.6,2,2,5.6,2,10s3.6,8,8,8s8-3.6,8-8S14.4,2,10,2z M12.8,13.2L10,11.8l-2.8,1.3l1.1-3.2L6.2,8.8h3.3L10,5.6 l0.5,3.2h3.3l-2.1,1.2L12.8,13.2z"/>
+        <text x="30" y="5" class="main-text">WordPress</text>
+    </g>
+  </g>
+
+  <g transform="translate(50, 320)">
+    <text x="0" y="0" class="header-text">// OPEN_TRANSMISSION</text>
+    <a xlink:href="https://wa.me/917426810155" target="_blank">
+      <text x="0" y="30" class="main-text">[ WhatsApp ]</text>
+    </a>
+    <a xlink:href="https://www.linkedin.com/in/rajvansh-25abcdee/" target="_blank">
+      <text x="0" y="50" class="main-text">[ LinkedIn ]</text>
+    </a>
+    <a xlink:href="mailto:rajvansh2525@gmail.com" target="_blank">
+      <text x="0" y="70" class="main-text">[ Email ]</text>
+    </a>
+  </g>
+
+  <g transform="translate(500, 320)">
+    <text x="0" y="0" class="header-text">// SINGULARITY_DATA</text>
+    <text x="0" y="30" class="main-text">COMMIT_DENSITY: 300+</text>
+    <text x="0" y="50" class="main-text">STAR_MASS: 1+</text>
+    <text x="0" y="70" class="main-text">PR_FLUX: 4+</text>
+  </g>
+</svg>
