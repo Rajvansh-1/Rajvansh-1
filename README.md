@@ -2,16 +2,56 @@
   <img src="header.svg" alt="Rajvansh - Developer Profile Header"/>
 </div>
 
+<div align="center">
+  <img src="summary.svg" alt="Rajvansh - Profile Summary Terminal"/>
+</div>
 
 <div align="center">
-  <p>
-    A detail-oriented Frontend Developer on a journey to become a Full-Stack Engineer.
-  </p>
-  <p>
-    <strong>🚀 Architecting intuitive user interfaces with clean, efficient code.</strong><br>
-    <strong>🌱 Evolving my skills in backend & cloud infrastructure to build end-to-end solutions.</strong><br>
-    <strong>💡 Passionate about problem-solving, collaboration, and continuous learning.</strong>
-  </p>
+<svg width="600" height="200" viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #E5E7EB; }
+        .prompt { fill: #A78BFA; }
+        .command { fill: #34D399; }
+        .output { opacity: 0; }
+    </style>
+    <rect width="600" height="200" fill="#1F2937" rx="8"/>
+    <circle cx="20" cy="20" r="6" fill="#EF4444"/>
+    <circle cx="40" cy="20" r="6" fill="#FBBF24"/>
+    <circle cx="60" cy="20" r="6" fill="#10B981"/>
+    
+    <text x="20" y="50" class="text">
+        <tspan class="prompt">~/rajvansh/profile</tspan>
+        <tspan dx="5">$</tspan>
+        <tspan class="command" dx="10">./display-summary.sh</tspan>
+    </text>
+
+    <g class="output">
+        <text x="20" y="80" class="text">
+            <tspan fill="#38BDF8">[STATUS]</tspan>
+            <tspan dx="10">Detail-oriented Frontend Developer</tspan>
+            <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1s" fill="freeze" />
+        </text>
+        <text x="20" y="105" class="text">
+            <tspan fill="#38BDF8">[MISSION]</tspan>
+            <tspan dx="10">🚀 Architecting intuitive UIs with clean, efficient code.</tspan>
+            <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.8s" fill="freeze" />
+        </text>
+        <text x="20" y="130" class="text">
+            <tspan fill="#38BDF8">[GROWTH]</tspan>
+            <tspan dx="10">🌱 Evolving skills in backend & cloud infrastructure.</tspan>
+            <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.6s" fill="freeze" />
+        </text>
+         <text x="20" y="155" class="text">
+            <tspan fill="#38BDF8">[PHILOSOPHY]</tspan>
+            <tspan dx="10">💡 Passionate about collaboration & continuous learning.</tspan>
+            <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.4s" fill="freeze" />
+        </text>
+    </g>
+    
+    <rect x="245" y="165" width="8" height="14" fill="#34D399" opacity="0">
+         <animate attributeName="opacity" values="0;1;1;0;1;1;0;1;1;0" dur="4s" begin="0.5s" fill="freeze" />
+    </rect>
+</svg>
 </div>
 
 ---
@@ -113,9 +153,9 @@
       <br>Analytics
     </td>
     <td align="center" width="120">
-  <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
-  <br>Tailwind CSS
-</td>
+      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
+      <br>Tailwind CSS
+    </td>
   </tr>
 </table>
 
