@@ -2,9 +2,7 @@
   <img src="header.svg" alt="Rajvansh - Developer Profile Header"/>
 </div>
 
-<div align="center">
-  <img src="summary.svg" alt="Rajvansh - Profile Summary Terminal"/>
-</div>
+
 
 <div align="center">
 
