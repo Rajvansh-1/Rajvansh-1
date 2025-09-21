@@ -1,7 +1,7 @@
 <svg width="800" height="420" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
       .main-text { font-family: 'Share Tech Mono', monospace; font-size: 14px; fill: #a7d1ff; }
       .header-text { font-family: 'Share Tech Mono', monospace; font-size: 20px; fill: #00e1ff; text-shadow: 0 0 5px #00e1ff; }
       .small-text { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #8ca5c3; }
@@ -68,13 +68,13 @@
 
   <g transform="translate(50, 320)">
     <text x="0" y="0" class="header-text">// OPEN_TRANSMISSION</text>
-    <a xlink:href="https://wa.me/917426810155" target="_blank">
+    <a xlink:href="https://wa.me/917426810155">
       <text x="0" y="30" class="main-text">[ WhatsApp ]</text>
     </a>
-    <a xlink:href="https://www.linkedin.com/in/rajvansh-25abcdee/" target="_blank">
+    <a xlink:href="https://www.linkedin.com/in/rajvansh-25abcdee/">
       <text x="0" y="50" class="main-text">[ LinkedIn ]</text>
     </a>
-    <a xlink:href="mailto:rajvansh2525@gmail.com" target="_blank">
+    <a xlink:href="mailto:rajvansh2525@gmail.com">
       <text x="0" y="70" class="main-text">[ Email ]</text>
     </a>
   </g>
