@@ -4,12 +4,14 @@
 
 
 <div align="center">
-  <h3>A detail-oriented Frontend Developer currently expanding my expertise to become a comprehensive Full-Stack Engineer.</h3>
-  <ul>
-    <li>🚀 Architecting intuitive user interfaces with a focus on clean, efficient code.</li>
-    <li>🌱 Evolving my skills in backend and cloud infrastructure to build end-to-end solutions.</li>
-    <li>💡 Passionate about problem-solving, collaboration, and continuous learning.</li>
-  </ul>
+  <p>
+    A detail-oriented Frontend Developer on a journey to become a Full-Stack Engineer.
+  </p>
+  <p>
+    <strong>🚀 Architecting intuitive user interfaces with clean, efficient code.</strong><br>
+    <strong>🌱 Evolving my skills in backend & cloud infrastructure to build end-to-end solutions.</strong><br>
+    <strong>💡 Passionate about problem-solving, collaboration, and continuous learning.</strong>
+  </p>
 </div>
 
 ---
