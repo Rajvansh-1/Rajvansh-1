@@ -62,5 +62,5 @@
 ### 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Rajvansh-1/Rajvansh-1/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+  <img src="https://raw.githubusercontent.com/Rajvansh-1/Rajvansh-1/main/dist/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
 </div>
