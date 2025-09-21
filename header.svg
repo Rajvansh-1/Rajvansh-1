@@ -1,51 +1,44 @@
 <svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#111827" />
-            <stop offset="100%" stop-color="#0c0c1d" />
-        </linearGradient>
-        <filter id="neon-glow">
-            <feGaussianBlur stdDeviation="3" result="blur" />
+        <radialGradient id="space-bg" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#1E293B" />
+            <stop offset="100%" stop-color="#0F172A" />
+        </radialGradient>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
             <feMerge>
-                <feMergeNode in="blur" />
-                <feMergeNode in="SourceGraphic" />
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
             </feMerge>
         </filter>
     </defs>
 
-    <rect width="900" height="300" fill="url(#bg-grad)" />
+    <rect width="900" height="300" fill="url(#space-bg)" />
 
-    <g font-family="'Courier New', Courier, monospace" font-size="30" filter="url(#neon-glow)">
-        <text fill="#34D399" x="-50" y="150">&lt;/&gt;</text>
-        <text fill="#A78BFA" x="950" y="100">{ }</text>
-        <text fill="#FBBF24" x="450" y="-50">JS</text>
-        <text fill="#60A5FA" x="450" y="350">CSS</text>
-
-        <animateTransform attributeName="transform" type="translate" dur="3s" begin="1s" fill="freeze"
-                          keyTimes="0; 0.6; 0.8; 1"
-                          values="0 0; 0 0; -5 5; 0 0"
-                          additive="sum" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1" />
+    <g font-family="'Courier New', Courier, monospace" font-size="20" fill="#94A3B8" opacity="0.5">
+        <text x="100" y="50">&lt;/&gt;</text>
+        <text x="800" y="80">{;}</text>
+        <text x="150" y="250">npm</text>
+        <text x="750" y="220">git</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 10; 0 0" dur="5s" repeatCount="indefinite" />
     </g>
 
-    <g>
-        <rect x="295" y="65" width="12" height="40" fill="#6EE7B7" opacity="0">
-            <animate attributeName="opacity" values="0;1;1;0;1;1;0" dur="2s" begin="0.5s" fill="freeze" />
-        </rect>
-        <text x="50%" y="100" text-anchor="middle" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="32" fill="#D1D5DB" opacity="0">
-             Hi there, I'm
-            <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1s" fill="freeze" />
+    <g text-anchor="middle">
+        <text x="50%" y="35%" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="34" fill="#E2E8F0">
+            Hi there, I'm
+            <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.5s" fill="freeze" />
+        </text>
+
+        <text x="50%" y="58%" font-family="'Orbitron', 'Arial Black', sans-serif" font-size="80" font-weight="900" fill="none" stroke="#38BDF8" stroke-width="2" letter-spacing="3"
+              stroke-dasharray="1050" stroke-dashoffset="1050" filter="url(#glow)">
+            RAJVANSH
+            <animate attributeName="stroke-dashoffset" from="1050" to="0" dur="2.5s" begin="1s" fill="freeze" />
+            <animate attributeName="fill" from="none" to="#38BDF8" dur="0.5s" begin="3s" fill="freeze" />
+        </text>
+
+        <text x="50%" y="78%" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="22" fill="#94A3B8" letter-spacing="1">
+            Frontend Developer || Aspiring Full-stack Developer
+            <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="3.5s" fill="freeze" />
         </text>
     </g>
-
-    <text x="50%" y="180" text-anchor="middle" font-family="'Orbitron', 'Arial Black', sans-serif" font-size="85" font-weight="900" letter-spacing="3" fill="none" stroke="#F9FAFB" stroke-width="2.5">
-        RAJVANSH
-        <animate attributeName="stroke-dasharray" from="0, 1500" to="1500, 0" dur="2s" begin="2.5s" fill="freeze" />
-        <animate attributeName="fill" from="none" to="#F9FAFB" dur="1s" begin="4s" fill="freeze" />
-        <animate attributeName="filter" from="none" to="url(#neon-glow)" dur="1s" begin="4s" fill="freeze" />
-    </text>
-
-    <text x="50%" y="245" text-anchor="middle" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="22" fill="#9CA3AF" letter-spacing="1.5" opacity="0">
-        Frontend Developer || Aspiring Full-stack Developer
-        <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="4.5s" fill="freeze" />
-    </text>
 </svg>
