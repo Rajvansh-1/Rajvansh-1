@@ -2,25 +2,23 @@
   <img src="header.svg" alt="Rajvansh - Developer Profile Header"/>
 </div>
 
-
 <div align="center">
-
-<h3>A detail-oriented Frontend Developer currently expanding my expertise to become a comprehensive Full-Stack Engineer.</h3>
-
-<ul>
-
-<li>🚀 Architecting intuitive user interfaces with a focus on clean, efficient code.</li>
-
-<li>🌱 Evolving my skills in backend and cloud infrastructure to build end-to-end solutions.</li>
-
-<li>💡 Passionate about problem-solving, collaboration, and continuous learning.</li>
-
-</ul>
-
+  <h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">
+    Frontend Developer evolving into a Full-Stack Developer
+  </h3>
 </div>
 
-
-  
+<ul style="list-style-type: none; padding-left: 0;">
+  <li style="font-size: 1.1em; margin-bottom: 10px;">
+    🚀 &nbsp; Architecting robust, scalable, and highly performant user interfaces with a focus on delivering exceptional user experiences.
+  </li>
+  <li style="font-size: 1.1em; margin-bottom: 10px;">
+    🌱 &nbsp; Strategically expanding my expertise into backend systems and cloud infrastructure to engineer and deploy comprehensive, end-to-end solutions.
+  </li>
+  <li style="font-size: 1.1em; margin-bottom: 10px;">
+    💡 &nbsp; Passionate about clean code architecture, collaborative problem-solving, and a disciplined approach to continuous learning.
+  </li>
+</ul>
 
 ---
 
