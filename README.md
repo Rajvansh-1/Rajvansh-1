@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">
-    Frontend Developer evolving into a Full-Stack Developer
+    Evolving myself by learning new technologies that shape modern Webapps.
   </h3>
 </div>
 
@@ -55,22 +55,34 @@
       <br>Redux
     </td>
     <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
+      <br>Tailwind CSS
+    </td>
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
       <br>Node.js
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express.js" />
+      <br>Express.js
     </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
       <br>MongoDB
     </td>
-  </tr>
-  <tr>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
       <br>Firebase
     </td>
     <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
-      <br>WordPress
+      <img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" />
+      <br>Nginx
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
+      <br>Redis
     </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
@@ -80,24 +92,16 @@
       <img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
       <br>C++
     </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
-      <br>Python
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" />
-      <br>AWS
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=netlify" width="48" height="48" alt="Netlify" />
-      <br>Netlify
-    </td>
   </tr>
   <tr>
     <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=cloudflare" width="48" height="48" alt="Cloudflare" />
-      <br>Cloudflare
-    </td>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" width="48" height="48" alt="Mocha" />
+  <br>Mocha
+</td>
+    <td align="center" width="120">
+  <img src="https://img.shields.io/badge/chai-%23A30701.svg?style=for-the-badge&logo=chai&logoColor=white" alt="Chai" />
+  <br>Chai
+</td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
       <br>Git
@@ -107,6 +111,20 @@
       <br>GitHub
     </td>
     <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=npm" width="48" height="48" alt="NPM" />
+      <br>NPM
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=netlify" width="48" height="48" alt="Netlify" />
+      <br>Netlify
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=cloudflare" width="48" height="48" alt="Cloudflare" />
+      <br>Cloudflare
+    </td>
+  </tr>
+    <tr>
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
       <br>VS Code
     </td>
@@ -115,12 +133,12 @@
       <br>Kali Linux
     </td>
     <td align="center" width="120">
-      <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white&label=" alt="Google Analytics" />
-      <br>Analytics
+      <img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
+      <br>WordPress
     </td>
     <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
-      <br>Tailwind CSS
+      <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white&label=" alt="Google Analytics" />
+      <br>Analytics
     </td>
   </tr>
 </table>
