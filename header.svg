@@ -1,44 +1,102 @@
 <svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .title-text {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 80px;
+            font-weight: 900;
+            letter-spacing: 3px;
+        }
+        .subtitle-text {
+            font-family: 'Segoe UI', 'Roboto', sans-serif;
+            /* Increased font size and weight for visibility */
+            font-size: 28px;
+            font-weight: 600;
+            fill: #A78BFA; /* Brighter color to stand out */
+            letter-spacing: 2px;
+        }
+        .greeting-text {
+            font-family: 'Segoe UI', 'Roboto', sans-serif;
+            font-size: 34px;
+            fill: #E2E8F0;
+        }
+        .dev-icon {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            fill: #475569;
+            opacity: 0.6;
+        }
+    </style>
     <defs>
         <radialGradient id="space-bg" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#1E293B" />
-            <stop offset="100%" stop-color="#0F172A" />
+            <stop offset="0%" stop-color="#111827" />
+            <stop offset="100%" stop-color="#0c1322" />
         </radialGradient>
-        <filter id="glow">
-            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+        <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+             <stop offset="0%" stop-color="#38BDF8">
+                <animate attributeName="stop-color" values="#38BDF8; #A78BFA; #38BDF8" dur="5s" repeatCount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stop-color="#A78BFA">
+                <animate attributeName="stop-color" values="#A78BFA; #38BDF8; #A78BFA" dur="5s" repeatCount="indefinite"></animate>
+            </stop>
+        </linearGradient>
+    </defs>
+
+    <rect width="900" height="300" fill="url(#space-bg)" />
+
+    <g>
+        <circle cx="100" cy="50" r="1.5" fill="#E2E8F0"><animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" begin="0.5s"/></circle>
+        <circle cx="800" cy="80" r="1" fill="#E2E8F0"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="1s"/></circle>
+        <circle cx="150" cy="250" r="1" fill="#E2E8F0"><animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite" begin="0.2s"/></circle>
+        <circle cx="750" cy="220" r="1.2" fill="#E2E8F0"><animate attributeName="opacity" values="0;1;0" dur="3.5s" repeatCount="indefinite" begin="1.5s"/></circle>
+        <circle cx="450" cy="120" r="1.5" fill="#E2E8F0"><animate attributeName="opacity" values="0;1;0" dur="4.2s" repeatCount="indefinite" begin="0.8s"/></circle>
+        <circle cx="50" cy="180" r="1" fill="#E2E8F0"><animate attributeName="opacity" values="0;1;0" dur="3.8s" repeatCount="indefinite" begin="1.2s"/></circle>
+        <circle cx="850" cy="280" r="1.2" fill="#E2E8F0"><animate attributeName="opacity" values="0;1;0" dur="4.5s" repeatCount="indefinite" begin="0.3s"/></circle>
+    </g>
+
+    <g class="dev-icon">
+        <text x="50" y="70">&lt;/&gt;</text>
+        <text x="820" y="100">{;}</text>
+        <text x="120" y="260">npm</text>
+        <text x="780" y="240">git</text>
+        <text x="200" y="80">()=&gt;{}</text>
+        <text x="700" y="50">React</text>
+        <text x="300" y="230">Node</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -15; 0 0" dur="8s" repeatCount="indefinite" />
+    </g>
+
+    <g text-anchor="middle">
+        <text x="50%" y="35%" class="greeting-text">
+            Hi there, I'm
+            <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.5s" fill="freeze" />
+        </text>
+
+        <text x="50%" y="58%" class="title-text" fill="url(#title-gradient)" stroke="url(#title-gradient)" stroke-width="1.5"
+              stroke-dasharray="1050" stroke-dashoffset="1050" filter="url(#glow)">
+            RAJVANSH
+            <animate attributeName="stroke-dashoffset" from="1050" to="0" dur="2.5s" begin="1s" fill="freeze" />
+        </text>
+
+        <text x="50%" y="80%" class="subtitle-text" filter="url(#glow)" opacity="0">
+            Full-stack Developer
+            <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="3.5s" fill="freeze" />
+            <animate attributeName="filter" values="url(#glow);url(#glow);url(#glow-strong);url(#glow)" dur="2s" begin="4s" repeatCount="indefinite"/>
+        </text>
+    </g>
+
+    <defs>
+        <filter id="glow-strong">
+            <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
             <feMerge>
                 <feMergeNode in="coloredBlur"/>
                 <feMergeNode in="SourceGraphic"/>
             </feMerge>
         </filter>
     </defs>
-
-    <rect width="900" height="300" fill="url(#space-bg)" />
-
-    <g font-family="'Courier New', Courier, monospace" font-size="20" fill="#94A3B8" opacity="0.5">
-        <text x="100" y="50">&lt;/&gt;</text>
-        <text x="800" y="80">{;}</text>
-        <text x="150" y="250">npm</text>
-        <text x="750" y="220">git</text>
-        <animateTransform attributeName="transform" type="translate" values="0 0; 0 10; 0 0" dur="5s" repeatCount="indefinite" />
-    </g>
-
-    <g text-anchor="middle">
-        <text x="50%" y="35%" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="34" fill="#E2E8F0">
-            Hi there, I'm
-            <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.5s" fill="freeze" />
-        </text>
-
-        <text x="50%" y="58%" font-family="'Orbitron', 'Arial Black', sans-serif" font-size="80" font-weight="900" fill="none" stroke="#38BDF8" stroke-width="2" letter-spacing="3"
-              stroke-dasharray="1050" stroke-dashoffset="1050" filter="url(#glow)">
-            RAJVANSH
-            <animate attributeName="stroke-dashoffset" from="1050" to="0" dur="2.5s" begin="1s" fill="freeze" />
-            <animate attributeName="fill" from="none" to="#38BDF8" dur="0.5s" begin="3s" fill="freeze" />
-        </text>
-
-        <text x="50%" y="78%" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="22" fill="#94A3B8" letter-spacing="1">
-            Frontend Developer || Aspiring Full-stack Developer
-            <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="3.5s" fill="freeze" />
-        </text>
-    </g>
 </svg>
