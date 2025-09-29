@@ -2,23 +2,31 @@
   <img src="header.svg" alt="Rajvansh - Developer Profile Header"/>
 </div>
 
-<div align="center">
-  <h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">
-    Evolving myself by learning new technologies that shape modern Webapps.
-  </h3>
-</div>
-
-<ul style="list-style-type: none; padding-left: 0;">
-  <li style="font-size: 1.1em; margin-bottom: 10px;">
-    🚀 &nbsp; Architecting robust, scalable, and highly performant user interfaces with a focus on delivering exceptional user experiences.
-  </li>
-  <li style="font-size: 1.1em; margin-bottom: 10px;">
-    🌱 &nbsp; Strategically expanding my expertise into backend systems and cloud infrastructure to engineer and deploy comprehensive, end-to-end solutions.
-  </li>
-  <li style="font-size: 1.1em; margin-bottom: 10px;">
-    💡 &nbsp; Passionate about clean code architecture, collaborative problem-solving, and a disciplined approach to continuous learning.
-  </li>
-</ul>
+<table width="100%">
+  <tr>
+    <td valign="top">
+      <div align="left">
+        <h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">
+          Evolving myself by learning new technologies that shape modern Webapps.
+        </h3>
+        <ul style="list-style-type: none; padding-left: 0;">
+          <li style="font-size: 1.1em; margin-bottom: 10px;">
+            🚀 &nbsp; Architecting robust, scalable, and highly performant user interfaces with a focus on delivering exceptional user experiences.
+          </li>
+          <li style="font-size: 1.1em; margin-bottom: 10px;">
+            🌱 &nbsp; Strategically expanding my expertise into backend systems and cloud infrastructure to engineer and deploy comprehensive, end-to-end solutions.
+          </li>
+          <li style="font-size: 1.1em; margin-bottom: 10px;">
+            💡 &nbsp; Passionate about clean code architecture, collaborative problem-solving, and a disciplined approach to continuous learning.
+          </li>
+        </ul>
+      </div>
+    </td>
+    <td width="420" valign="top">
+      <img alt="coding gif" src="https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif">
+    </td>
+  </tr>
+</table>
 
 ---
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=your-username&label=Profile%20views&color=0e75b6&style=flat" alt="your-username" /> </p>
@@ -170,6 +178,8 @@
     <img src="https://github-profile-trophy.vercel.app/?username=Rajvansh-1&theme=tokyonight&row=1&margin-w=40" alt="GitHub Trophies"/>
   </a>
 </p>
+
+---
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
