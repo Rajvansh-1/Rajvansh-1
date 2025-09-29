@@ -22,7 +22,7 @@
         </ul>
       </div>
     </td>
-    <td width="420" valign="top">
+    <td width="500" valign="center">
       <img alt="coding gif" src="https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif">
     </td>
   </tr>
