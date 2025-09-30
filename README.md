@@ -24,7 +24,9 @@
 </div>
 
 ---
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=your-username&label=Profile%20views&color=0e75b6&style=flat" alt="your-username" /> </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Visitors-12,748-8A2BE2?style=flat-square&logo=eye&logoColor=white" alt="Visitors"/>
+</p>
 
 ---
 
