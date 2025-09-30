@@ -185,5 +185,5 @@
 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" alt="Dino Game"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZng2dXRqdDY5dDJqamVwbGdvdjdsZGh6NzI1cTM1czdxdHdiaTA0diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/78XCFBGOlS6keY1Bil/giphy.gif" width="auto" height="auto" alt=" Coding GIF"/>
 </div>
