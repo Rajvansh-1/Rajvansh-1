@@ -25,7 +25,7 @@
 
 ---
 <p align="center">
-  <img src="https://img.shields.io/badge/Visitors-12,748-8A2BE2?style=flat-square&logo=eye&logoColor=white" alt="Visitors"/>
+  <img src="https://komarev.com/ghpvc/?username=Rajvansh-1&label=Profile%20Views&color=8A2BE2&style=flat-square" alt="Profile Views"/>
 </p>
 
 ---
