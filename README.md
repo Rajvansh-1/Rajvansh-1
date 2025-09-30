@@ -2,31 +2,26 @@
   <img src="header.svg" alt="Rajvansh - Developer Profile Header"/>
 </div>
 
-<table width="100%">
-  <tr>
-    <td valign="top">
-      <div align="left">
-        <h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">
-          Evolving myself by learning new technologies that shape modern Webapps.
-        </h3>
-        <ul style="list-style-type: none; padding-left: 0;">
-          <li style="font-size: 1.1em; margin-bottom: 10px;">
-            🚀 &nbsp; Architecting robust, scalable, and highly performant user interfaces with a focus on delivering exceptional user experiences.
-          </li>
-          <li style="font-size: 1.1em; margin-bottom: 10px;">
-            🌱 &nbsp; Strategically expanding my expertise into backend systems and cloud infrastructure to engineer and deploy comprehensive, end-to-end solutions.
-          </li>
-          <li style="font-size: 1.1em; margin-bottom: 10px;">
-            💡 &nbsp; Passionate about clean code architecture, collaborative problem-solving, and a disciplined approach to continuous learning.
-          </li>
-        </ul>
-      </div>
-    </td>
-    <td width="500" valign="center">
+<div align="left">
+  <h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">
+    Evolving myself by learning new technologies that shape modern Webapps.
+  </h3>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="font-size: 1.1em; margin-bottom: 10px;">
+      🚀 &nbsp; Architecting robust, scalable, and highly performant user interfaces with a focus on delivering exceptional user experiences.
+    </li>
+    <li style="font-size: 1.1em; margin-bottom: 10px;">
+      🌱 &nbsp; Strategically expanding my expertise into backend systems and cloud infrastructure to engineer and deploy comprehensive, end-to-end solutions.
+    </li>
+    <li style="font-size: 1.1em; margin-bottom: 10px;">
+      💡 &nbsp; Passionate about clean code architecture, collaborative problem-solving, and a disciplined approach to continuous learning.
+    </li>
+  </ul>
+</div>
+
+<div align="center">
       <img alt="coding gif" src="https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif">
-    </td>
-  </tr>
-</table>
+</div>
 
 ---
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=your-username&label=Profile%20views&color=0e75b6&style=flat" alt="your-username" /> </p>
@@ -185,7 +180,7 @@
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
   </a>
-</p>
+
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" alt="Dino Game"/>
