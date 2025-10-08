@@ -84,7 +84,7 @@
         </text>
 
         <text x="50%" y="80%" class="subtitle-text" filter="url(#glow)" opacity="0">
-            Full-stack Developer
+            Full-stack Developer & Open Source Contributor
             <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.2s" fill="freeze" />
             <animate attributeName="filter" values="url(#glow);url(#glow);url(#glow-strong);url(#glow)" dur="2s" begin="4s" repeatCount="indefinite"/>
         </text>
