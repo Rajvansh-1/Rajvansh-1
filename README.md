@@ -2,6 +2,9 @@
   <img src="header.svg" alt="Rajvansh - Developer Profile Header"/>
 </div>
 
+[![An image of @rajvansh1's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rajvansh1)](https://holopin.io/@rajvansh1)
+
+
 <div align="left">
   <h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">
     Evolving myself by learning new technologies that shape modern Webapps.
