@@ -165,7 +165,7 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajvansh-1&layout=compact&theme=tokyonight&hide_border=true" alt="Rajvansh's Top Languages" width="49%"/>
   </a>
   <br>
-  <a href="https://github.com/Rajvansh-1">
+    <a href="https://github.com/Rajvansh-1">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajvansh-1&theme=tokyonight&hide_border=true" alt="Rajvansh's GitHub Streak"/>
   </a>
 </p>
