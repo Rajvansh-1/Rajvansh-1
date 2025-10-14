@@ -7,20 +7,21 @@
 
 <div align="left">
   <h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">
-    Evolving myself by learning new technologies that shape modern Webapps.
+    I make the web come alive — blending creativity, code, and purpose.
   </h3>
   <ul style="list-style-type: none; padding-left: 0;">
     <li style="font-size: 1.1em; margin-bottom: 10px;">
-      🚀 &nbsp; Architecting robust, scalable, and highly performant user interfaces with a focus on delivering exceptional user experiences.
+      💻 &nbsp; Passionate open-source contributor, turning ideas into tools that inspire collaboration and push the boundaries of what the web can do.
     </li>
     <li style="font-size: 1.1em; margin-bottom: 10px;">
-      🌱 &nbsp; Strategically expanding my expertise into backend systems and cloud infrastructure to engineer and deploy comprehensive, end-to-end solutions.
+      🌐 &nbsp; I love to make the web alive by putting soul into it — crafting interfaces that feel natural, human, and full of intent.
     </li>
     <li style="font-size: 1.1em; margin-bottom: 10px;">
-      💡 &nbsp; Passionate about clean code architecture, collaborative problem-solving, and a disciplined approach to continuous learning.
+      🚀 &nbsp; Obsessed with creating and innovating — building useful, meaningful, and revolutionary digital experiences that truly make    an impact.
     </li>
   </ul>
 </div>
+
 
 <div align="center">
       <img alt="coding gif" src="https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif">
