@@ -6,21 +6,20 @@
 
 <div align="left">
   <h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">
-    I make the web come alive — blending creativity, code, and purpose.
+    Building things for the web with a bit of soul.
   </h3>
   <ul style="list-style-type: none; padding-left: 0;">
     <li style="font-size: 1.1em; margin-bottom: 10px;">
-      💻 &nbsp; Passionate open-source contributor, turning ideas into tools that inspire collaboration and push the boundaries of what the web can do.
+      💻 &nbsp; I love contributing to open source and turning ideas into tools.
     </li>
     <li style="font-size: 1.1em; margin-bottom: 10px;">
-      🌐 &nbsp; I love to make the web alive by putting soul into it — crafting interfaces that feel natural, human, and full of intent.
+      🌐 &nbsp; Focused on crafting interfaces that feel natural and human.
     </li>
     <li style="font-size: 1.1em; margin-bottom: 10px;">
-      🚀 &nbsp; Obsessed with creating and innovating — building useful, meaningful, and revolutionary digital experiences that truly make    an impact.
+      🚀 &nbsp; Passionate about building digital experiences that actually make an impact.
     </li>
   </ul>
 </div>
-
 
 <div align="center">
       <img alt="coding gif" src="https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif">
@@ -58,6 +57,14 @@
       <br>JavaScript
     </td>
     <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
+      <br>TypeScript
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
+      <br>Next.js
+    </td>
+    <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
       <br>React
     </td>
@@ -65,23 +72,45 @@
       <img src="https://skillicons.dev/icons?i=redux" width="48" height="48" alt="Redux" />
       <br>Redux
     </td>
+  </tr>
+  <tr>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
-      <br>Tailwind CSS
+      <br>Tailwind
     </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
       <br>Node.js
     </td>
-  </tr>
-  <tr>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express.js" />
-      <br>Express.js
+      <br>Express
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
+      <br>PostgreSQL
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=prisma" width="48" height="48" alt="Prisma" />
+      <br>Prisma
     </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
       <br>MongoDB
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Supabase" />
+      <br>Supabase
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <img src="https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=black" height="30" alt="Neon" />
+      <br>Neon
+    </td>
+    <td align="center" width="120">
+      <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" height="30" alt="Payments" />
+      <br>Payments
     </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
@@ -106,13 +135,13 @@
   </tr>
   <tr>
     <td align="center" width="120">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" width="48" height="48" alt="Mocha" />
-  <br>Mocha
-</td>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" width="48" height="48" alt="Mocha" />
+      <br>Mocha
+    </td>
     <td align="center" width="120">
-  <img src="https://img.shields.io/badge/chai-%23A30701.svg?style=for-the-badge&logo=chai&logoColor=white" alt="Chai" />
-  <br>Chai
-</td>
+      <img src="https://img.shields.io/badge/chai-%23A30701.svg?style=for-the-badge&logo=chai&logoColor=white" alt="Chai" />
+      <br>Chai
+    </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
       <br>Git
@@ -134,18 +163,22 @@
       <br>Cloudflare
     </td>
   </tr>
-    <tr>
+  <tr>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
       <br>VS Code
     </td>
     <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Kali Linux" />
-      <br>Kali Linux
+      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+      <br>Linux
+    </td>
+    <td align="center" width="120">
+      <img src="https://img.shields.io/badge/RHEL9-EE0000?style=for-the-badge&logo=redhat&logoColor=white" height="30" alt="RHEL9" />
+      <br>RHEL9
     </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
-      <br>WordPress
+      <br>WP
     </td>
     <td align="center" width="120">
       <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white&label=" alt="Google Analytics" />
@@ -159,14 +192,14 @@
 <h3 align="center">📊 GitHub Analytics</h3>
 <p align="center">
   <a href="https://github.com/Rajvansh-1">
-    <img src="https://github-readme-stats.vercel.app/api?username=Rajvansh-1&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="Rajvansh's GitHub Stats" width="49%"/>
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Rajvansh-1&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="Rajvansh's GitHub Stats" width="49%"/>
   </a>
   <a href="https://github.com/Rajvansh-1">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajvansh-1&layout=compact&theme=tokyonight&hide_border=true" alt="Rajvansh's Top Languages" width="49%"/>
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Rajvansh-1&layout=compact&theme=tokyonight&hide_border=true" alt="Rajvansh's Top Languages" width="49%"/>
   </a>
   <br>
     <a href="https://github.com/Rajvansh-1">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajvansh-1&theme=tokyonight&hide_border=true" alt="Rajvansh's GitHub Streak"/>
+    <img src="https://streak-stats.demolab.com/?user=Rajvansh-1&theme=tokyonight&hide_border=true" alt="Rajvansh's GitHub Streak"/>
   </a>
 </p>
 
@@ -174,8 +207,8 @@
 
 <h3 align="center">🏆 GitHub Trophies</h3>
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Rajvansh-1&theme=tokyonight&row=1&margin-w=40" alt="GitHub Trophies"/>
+  <a href="https://github.com/Rajvansh-1">
+    <img src="https://github-profile-trophy.vercel.app/?username=Rajvansh-1&theme=tokyonight&no-bg=true&margin-w=15" alt="GitHub Trophies"/>
   </a>
 </p>
 
@@ -185,7 +218,4 @@
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
   </a>
-
-
-
-
+</p>
