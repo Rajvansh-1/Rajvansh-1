@@ -208,7 +208,7 @@
 <h3 align="center">🏆 GitHub Trophies</h3>
 <p align="center">
   <a href="https://github.com/Rajvansh-1">
-    <img src="https://github-profile-trophy.vercel.app/?username=Rajvansh-1&theme=tokyonight&no-bg=true&margin-w=15" alt="GitHub Trophies"/>
+    <img src="https://github-profile-trophy-nu.vercel.app/?username=Rajvansh-1&theme=tokyonight&no-bg=true" alt="GitHub Trophies" />
   </a>
 </p>
 
