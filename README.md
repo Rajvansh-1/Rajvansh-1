@@ -94,7 +94,7 @@
     <td align="center" width="120"><img src="https://skillicons.dev/icons?i=npm" width="45"/><br>NPM</td>
     <td align="center" width="120"><img src="https://skillicons.dev/icons?i=wordpress" width="45"/><br>WP</td>
     <td align="center" width="120"><img src="https://img.shields.io/badge/Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white" height="25"/><br>Analytics</td>
-    <td align="center" width="120"><i>Miscellaneous</i></td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=vercel" width="45"/><br>Vercel</td>
   </tr>
 </table>
 
