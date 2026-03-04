@@ -21,10 +21,6 @@
   </ul>
 </div>
 
-<div align="center">
-      <img alt="coding gif" src="https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif">
-</div>
-
 ---
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Rajvansh-1&label=Profile%20Views&color=8A2BE2&style=flat-square" alt="Profile Views"/>
@@ -44,146 +40,61 @@
 <h3 align="center">💻 Tech Stack & Tools</h3>
 <table align="center">
   <tr>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
-      <br>HTML
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
-      <br>CSS
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
-      <br>JavaScript
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
-      <br>TypeScript
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
-      <br>Next.js
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-      <br>React
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=redux" width="48" height="48" alt="Redux" />
-      <br>Redux
-    </td>
+    <th colspan="7" align="center">🎨 Frontend & Design</th>
   </tr>
   <tr>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
-      <br>Tailwind
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-      <br>Node.js
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express.js" />
-      <br>Express
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
-      <br>PostgreSQL
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=prisma" width="48" height="48" alt="Prisma" />
-      <br>Prisma
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
-      <br>MongoDB
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Supabase" />
-      <br>Supabase
-    </td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=html" width="45"/><br>HTML</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=css" width="45"/><br>CSS</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=js" width="45"/><br>JavaScript</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=ts" width="45"/><br>TypeScript</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=react" width="45"/><br>React</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=nextjs" width="45"/><br>Next.js</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=tailwind" width="45"/><br>Tailwind</td>
   </tr>
   <tr>
-    <td align="center" width="120">
-      <img src="https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=black" height="30" alt="Neon" />
-      <br>Neon
-    </td>
-    <td align="center" width="120">
-      <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" height="30" alt="Payments" />
-      <br>Payments
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
-      <br>Firebase
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" />
-      <br>Nginx
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
-      <br>Redis
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
-      <br>C
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
-      <br>C++
-    </td>
+    <th colspan="7" align="center">⚙️ Backend & Databases</th>
   </tr>
   <tr>
-    <td align="center" width="120">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" width="48" height="48" alt="Mocha" />
-      <br>Mocha
-    </td>
-    <td align="center" width="120">
-      <img src="https://img.shields.io/badge/chai-%23A30701.svg?style=for-the-badge&logo=chai&logoColor=white" alt="Chai" />
-      <br>Chai
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
-      <br>Git
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
-      <br>GitHub
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=npm" width="48" height="48" alt="NPM" />
-      <br>NPM
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=netlify" width="48" height="48" alt="Netlify" />
-      <br>Netlify
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=cloudflare" width="48" height="48" alt="Cloudflare" />
-      <br>Cloudflare
-    </td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=nodejs" width="45"/><br>Node.js</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=express" width="45"/><br>Express</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=mongodb" width="45"/><br>MongoDB</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=postgres" width="45"/><br>PostgreSQL</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=prisma" width="45"/><br>Prisma</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=supabase" width="45"/><br>Supabase</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=redis" width="45"/><br>Redis</td>
   </tr>
   <tr>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
-      <br>VS Code
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
-      <br>Linux
-    </td>
-    <td align="center" width="120">
-      <img src="https://img.shields.io/badge/RHEL9-EE0000?style=for-the-badge&logo=redhat&logoColor=white" height="30" alt="RHEL9" />
-      <br>RHEL9
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
-      <br>WP
-    </td>
-    <td align="center" width="120">
-      <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white&label=" alt="Google Analytics" />
-      <br>Analytics
-    </td>
+    <th colspan="7" align="center">🚀 Cloud, Payments & Infrastructure</th>
+  </tr>
+  <tr>
+    <td align="center" width="120"><img src="https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=black" height="25"/><br>Neon</td>
+    <td align="center" width="120"><img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF" height="25"/><br>Razorpay</td>
+    <td align="center" width="120"><img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" height="25"/><br>Stripe</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=firebase" width="45"/><br>Firebase</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=nginx" width="45"/><br>Nginx</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=cloudflare" width="45"/><br>Cloudflare</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=netlify" width="45"/><br>Netlify</td>
+  </tr>
+  <tr>
+    <th colspan="7" align="center">🛠️ Dev Tools, Languages & More</th>
+  </tr>
+  <tr>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=git" width="45"/><br>Git</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=github" width="45"/><br>GitHub</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=c" width="45"/><br>C</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=cpp" width="45"/><br>C++</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=linux" width="45"/><br>Linux</td>
+    <td align="center" width="120"><img src="https://img.shields.io/badge/RHEL9-EE0000?style=for-the-badge&logo=redhat&logoColor=white" height="25"/><br>RHEL9</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=vscode" width="45"/><br>VS Code</td>
+  </tr>
+  <tr>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=redux" width="45"/><br>Redux</td>
+    <td align="center" width="120"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" width="40"/><br>Mocha</td>
+    <td align="center" width="120"><img src="https://img.shields.io/badge/chai-%23A30701.svg?style=for-the-badge&logo=chai&logoColor=white" height="25"/><br>Chai</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=npm" width="45"/><br>NPM</td>
+    <td align="center" width="120"><img src="https://skillicons.dev/icons?i=wordpress" width="45"/><br>WP</td>
+    <td align="center" width="120"><img src="https://img.shields.io/badge/Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white" height="25"/><br>Analytics</td>
+    <td align="center" width="120"><i>Miscellaneous</i></td>
   </tr>
 </table>
 
